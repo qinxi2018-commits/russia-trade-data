@@ -1,40 +1,59 @@
-# Russia-China Trade Data Analyzer
+# Russia-China Trade Data 2024-2026
 
-Open source CLI tool for analyzing Russia-China bilateral trade data, based on World Bank Comtrade, China Customs, and Russian Federal Customs Service official statistics.
+> 🔥 **TOP 50 categories analyzed** | $162.8B total trade volume | Updated May 2026
+
+Comprehensive Russia-China trade data analysis covering 50 product categories, with historical trends, growth rates, and actionable market intelligence for exporters.
+
+[📊 View Analysis Script](analyze.py) | [📈 Live Data](data/last_update.json) | [📋 Full Report](https://velvety-gecko-b38d75.netlify.app/)
+
+## What's Inside
+
+- **TOP 50 Categories** — Chinese exports to Russia by HS code (2024 data, 50 categories ranked by trade volume)
+- **Growth Trends** — Year-over-year comparison, identifying fast-growing opportunities
+- **Market Segmentation** — Machinery, Electronics, Textiles, Chemicals, Metals, and more
+- **Auto-Update** — Fetches latest World Bank data via `python3 fetch_trade_data.py`
 
 ## Quick Start
 
 ```bash
+# Clone the repo
 git clone https://github.com/qinxi2018-commits/russia-trade-data.git
 cd russia-trade-data
-python3 analyze.py --list
-python3 analyze.py --category electronics
+
+# Run the analyzer
+python3 analyze.py --summary
+
+# Update data from World Bank
+python3 fetch_trade_data.py
 ```
 
-## Data Coverage
+## TOP 10 Categories (2024)
 
-- **50+ product categories** from China to Russia
-- **2024 actual trade values** (World Bank + Customs data)
-- **2025-2026 growth projections**
-- Logistics cost benchmarks by category
+| Rank | Category | Trade Volume |
+|------|----------|-------------|
+| 1 | Integrated Circuits & Microassemblies | $12.4B |
+| 2 | Vehicle Parts & Accessories | $8.7B |
+| 3 | Telephone Equipment | $7.2B |
+| 4 | Computers & Parts | $6.1B |
+| 5 | Display Panels (LCD/LED) | $5.3B |
+| 6 | Machine Parts | $4.9B |
+| 7 | Insulated Wire & Cable | $4.1B |
+| 8 | Excavators & Construction Machinery | $3.8B |
+| 9 | Tractors & Agricultural Vehicles | $3.2B |
+| 10 | Auto Vehicles (complete units) | $2.9B |
 
-## Free vs Paid
+## Data Sources
 
-This open source tool gives you:
-- Methodology and framework
-- TOP 50 categories overview
-- Basic growth projections
+- **Primary**: China Customs (中国海关总署) via World Bank Global Trade Atlas
+- **Supplementary**: UN Comtrade, Russian Federal Customs Service
+- **Update Frequency**: Monthly (automated via World Bank API)
 
-**Full commercial package includes:**
-- Detailed PDF report (EN/ZH/RU) — 34 pages
-- Excel data package: TOP50 + logistics + buyer directory
-- Quarterly updates
-- Buyer contact leads from Russian import channels
-- Risk analysis and market entry guidance
+## Commercial Reports
 
-:earth_americas: **https://velvety-gecko-b38d75.netlify.app/**
-:envelope: **qinxi18@mail.ru**
+For the full Russia Market Report 2026 (EN/ZH/RU), buyer directory, and data packages:
 
-## Topics
+🌐 **https://velvety-gecko-b38d75.netlify.app/**
 
-russia china trade data-analysis world-bank customs import export international-trade
+## License
+
+MIT License — Free to use, attribution required.
