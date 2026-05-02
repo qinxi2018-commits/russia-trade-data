@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://velvety-gecko-b38d75.netlify.app/sitemap.xml
+
+# Crawl-delay suggestion for polite bots
+Crawl-delay: 10
