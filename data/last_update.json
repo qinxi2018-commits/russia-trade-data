@@ -1,0 +1,25 @@
+{
+  "update_date": "2026-05-02",
+  "china_trade_balance": [
+    {
+      "message": [
+        {
+          "id": "120",
+          "key": "Invalid value",
+          "value": "The provided parameter value is not valid"
+        }
+      ]
+    }
+  ],
+  "russia_trade": [
+    {
+      "message": [
+        {
+          "id": "120",
+          "key": "Invalid value",
+          "value": "The provided parameter value is not valid"
+        }
+      ]
+    }
+  ]
+}
