@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>China Sourcing для Wildberries и Ozon | Найдем товар, проверим поставщика, доставим</title>
+<meta name="description" content="Помогаем продавцам Wildberries и Ozon находить надежных поставщиков в Китае. Проверка фабрик, переговоры, логистика. Без языкового барьера.">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0a; color: #e5e5e5; line-height: 1.6; }
+  .container { max-width: 720px; margin: 0 auto; padding: 20px; }
+  .hero { text-align: center; padding: 60px 20px; }
+  .hero h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 16px; color: #fff; }
+  .hero h1 span { color: #e53e3e; }
+  .hero .sub { font-size: 1.1rem; color: #a0a0a0; margin-bottom: 32px; }
+  .lang-bar { text-align: right; padding: 10px 20px; }
+  .lang-bar button { background: #1a1a1a; border: 1px solid #333; color: #888; padding: 4px 12px; border-radius: 4px; cursor: pointer; margin-left: 6px; font-size: 0.85rem; }
+  .lang-bar button.active { background: #e53e3e; color: #fff; border-color: #e53e3e; }
+  .cta-btn { display: inline-block; background: #e53e3e; color: #fff; padding: 14px 32px; border-radius: 8px; font-size: 1.1rem; font-weight: 600; text-decoration: none; cursor: pointer; border: none; }
+  .cta-btn:hover { background: #c53030; }
+  .section { padding: 40px 0; border-bottom: 1px solid #1a1a1a; }
+  .section h2 { font-size: 1.4rem; margin-bottom: 20px; color: #fff; }
+  .pain-box, .solution-box { background: #111; border-radius: 12px; padding: 24px; margin-bottom: 16px; }
+  .pain-box h3, .solution-box h3 { font-size: 1.1rem; margin-bottom: 8px; }
+  .pain-box { border-left: 3px solid #e53e3e; }
+  .solution-box { border-left: 3px solid #38a169; }
+  .pain-box p, .solution-box p { color: #888; font-size: 0.95rem; }
+  .steps { counter-reset: step; }
+  .step { display: flex; margin-bottom: 20px; align-items: flex-start; }
+  .step-num { counter-increment: step; width: 36px; height: 36px; background: #e53e3e; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0; margin-right: 16px; font-size: 0.9rem; }
+  .step-num::before { content: counter(step); }
+  .step-content h4 { font-size: 1rem; margin-bottom: 4px; color: #fff; }
+  .step-content p { font-size: 0.9rem; color: #888; }
+  .categories { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .cat { background: #111; padding: 16px; border-radius: 8px; }
+  .cat h4 { font-size: 0.95rem; margin-bottom: 4px; color: #fff; }
+  .cat p { font-size: 0.82rem; color: #666; }
+  .cat .growth { color: #38a169; font-weight: 600; }
+  .pricing { background: #111; border-radius: 12px; padding: 24px; text-align: center; }
+  .pricing h3 { font-size: 1.2rem; margin-bottom: 8px; color: #fff; }
+  .pricing .price { font-size: 2rem; font-weight: 700; color: #e53e3e; margin: 12px 0; }
+  .pricing .note { font-size: 0.85rem; color: #666; }
+  .form-box { background: #111; border-radius: 12px; padding: 24px; margin-top: 20px; }
+  .form-box h3 { font-size: 1.1rem; margin-bottom: 16px; color: #fff; }
+  .form-group { margin-bottom: 12px; }
+  .form-group label { display: block; font-size: 0.85rem; color: #888; margin-bottom: 4px; }
+  .form-group input, .form-group textarea, .form-group select { width: 100%; background: #0a0a0a; border: 1px solid #333; border-radius: 6px; padding: 10px; color: #e5e5e5; font-size: 0.95rem; }
+  .form-group textarea { height: 80px; resize: vertical; }
+  .trust { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 16px; }
+  .trust-item { background: #0a0a0a; border: 1px solid #1a1a1a; border-radius: 8px; padding: 12px; text-align: center; }
+  .trust-item .num { font-size: 1.4rem; font-weight: 700; color: #e53e3e; }
+  .trust-item .label { font-size: 0.8rem; color: #666; }
+  footer { text-align: center; padding: 40px 20px; color: #444; font-size: 0.85rem; }
+</style>
+</head>
+<body>
+
+<div class="lang-bar">
+  <button class="active" onclick="setLang('ru')">Русский</button>
+  <button onclick="setLang('en')">English</button>
+  <button onclick="setLang('zh')">中文</button>
+</div>
+
+<div class="container">
+  <div class="hero">
+    <h1>Закупаем в Китае для <span>Wildberries и Ozon</span></h1>
+    <p class="sub">Нашли товар на 1688 или Alibaba? Проверим фабрику, поторгуемся, организуем доставку. Вы продаете — мы обеспечиваем товаром.</p>
+    <a href="#contact" class="cta-btn">Получить консультацию</a>
+  </div>
+
+  <div class="section">
+    <h2>Почему это сложно без нас</h2>
+    <div class="pain-box">
+      <h3>Языковой барьер</h3>
+      <p>1688, Alibaba, Taobao — всё на китайском. Даже с переводчиком сложно понять реальное качество и цену.</p>
+    </div>
+    <div class="pain-box">
+      <h3>Не знаете, кому доверять</h3>
+      <p>Как проверить, что поставщик не пришлёт брак? Как убедиться, что фабрика вообще существует?</p>
+    </div>
+    <div class="pain-box">
+      <h3>Логистика — кошмар</h3>
+      <p>Доставка из Китая в Россию: карго, таможня, маркировка. Слишком много нюансов, которые сливают прибыль.</p>
+    </div>
+    <div class="pain-box">
+      <h3>Нет времени на поиск</h3>
+      <p>Изучать рынок, сравнивать цены, вести переговоры — это часы каждый день. Время дороже денег.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Что мы делаем</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num"></div>
+        <div class="step-content">
+          <h4>Найдём товар</h4>
+          <p>Ищем на 1688, Alibaba, напрямую у фабрик. Любая категория: электроника, БАДы, косметика, одежда, бытовое.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num"></div>
+        <div class="step-content">
+          <h4>Проверим поставщика</h4>
+          <p>Видео-звонок на фабрику, проверка документов, образцы товара. Вы видите реальное качество до оплаты.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num"></div>
+        <div class="step-content">
+          <h4>Поторгуемся</h4>
+          <p>Китайские поставщики дают скидку 10-30% при оптовых объёмах. Мы говорием на их языке — в прямом смысле.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num"></div>
+        <div class="step-content">
+          <h4>Организуем доставку</h4>
+          <p>Карго, растаможка, маркировка (Честный Знак), доставка до склада Wildberries или вашего склада.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Что сейчас растёт на Wildberries</h2>
+    <div class="categories">
+      <div class="cat">
+        <h4>БАДы и спортивное питание</h4>
+        <p>Китайские соевые заменители мяса +438% рост. Низкоуглеводная лапша — x2.</p>
+        <p class="growth">↑ Очень высокий спрос</p>
+      </div>
+      <div class="cat">
+        <h4>Косметика и уход</h4>
+        <p>Корейский и китайский уход лидирует. Маски, сыворотки, BB-крем.</p>
+        <p class="growth">↑ Стабильный рост</p>
+      </div>
+      <div class="cat">
+        <h4>Электроника</h4>
+        <p>Ноутбуки, наушники, зарядки, кабели. Китайские бренды занимают топ.</p>
+        <p class="growth">↑ Высокий спрос</p>
+      </div>
+      <div class="cat">
+        <h4>Одежда и обувь</h4>
+        <p>Одежда категории unbrand — массовый сегмент. Быстрая смена коллекций.</p>
+        <p class="growth">↑ Конкурентный</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Стоимость услуг</h2>
+    <div class="pricing">
+      <h3>Комиссия от суммы закупки</h3>
+      <div class="price">8-12%</div>
+      <p>Только за результат. Вы платите, когда товар уже у вас на складе.</p>
+      <p class="note" style="margin-top:8px;">Минимальная сумма закупки: ¥30,000 (~₽350,000)</p>
+    </div>
+    <div class="trust">
+      <div class="trust-item">
+        <div class="num">50+</div>
+        <div class="label">проверенных фабрик</div>
+      </div>
+      <div class="trust-item">
+        <div class="num">3-4</div>
+        <div class="label">недели от заявки до склада</div>
+      </div>
+      <div class="trust-item">
+        <div class="num">0</div>
+        <div class="label">предоплат поставщикам напрямую</div>
+      </div>
+      <div class="trust-item">
+        <div class="num">24ч</div>
+        <div class="label">на ответ в мессенджере</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Опишите, что хотите закупить</h2>
+    <div class="form-box">
+      <form id="orderForm">
+        <div class="form-group">
+          <label>Категория товара</label>
+          <select id="category">
+            <option value="">— Выберите категорию —</option>
+            <option>БАДы / витамины / спортивное питание</option>
+            <option>Косметика и уход за кожей</option>
+            <option>Электроника и гаджеты</option>
+            <option>Одежда и обувь</option>
+            <option>Бытовые товары</option>
+            <option>Товары для детей</option>
+            <option>Другое</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Что конкретно? (описание, ссылка, фото)</label>
+          <textarea id="product" placeholder="Опишите товар или укажите ссылку на 1688/Alibaba"></textarea>
+        </div>
+        <div class="form-group">
+          <label>Планируемый объём закупки (в юанях ¥)</label>
+          <input type="text" id="volume" placeholder="例如: ¥50,000">
+        </div>
+        <div class="form-group">
+          <label>Ваш Telegram или WhatsApp</label>
+          <input type="text" id="contact" placeholder="+7 XXX XXX XX XX">
+        </div>
+        <div class="form-group">
+          <label>Ваш email</label>
+          <input type="email" id="email" placeholder="email@example.com">
+        </div>
+        <button type="submit" class="cta-btn" style="width:100%; margin-top:8px;">Отправить заявку</button>
+        <p style="text-align:center; font-size:0.8rem; color:#555; margin-top:10px;">Ответим в течение 2 часов в рабочее время</p>
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>China Sourcing Service | russia-trade-data</p>
+  <p>qinxi18@mail.ru | Telegram: @russia_trade_data</p>
+</footer>
+
+<script>
+function setLang(lang) {
+  document.querySelectorAll('.lang-bar button').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+}
+
+document.getElementById('orderForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const data = {
+    category: document.getElementById('category').value,
+    product: document.getElementById('product').value,
+    volume: document.getElementById('volume').value,
+    contact: document.getElementById('contact').value,
+    email: document.getElementById('email').value
+  };
+  const subject = encodeURIComponent('Заявка на закупку в Китае: ' + data.category);
+  const body = encodeURIComponent(
+    'Категория: ' + data.category + '\n' +
+    'Товар: ' + data.product + '\n' +
+    'Объём: ' + data.volume + '\n' +
+    'Контакт: ' + data.contact + '\n' +
+    'Email: ' + data.email
+  );
+  window.location.href = 'mailto:qinxi18@mail.ru?subject=' + subject + '&body=' + body;
+  alert('Откроется почтовый клиент. Отправьте письмо — мы ответим в течение 2 часов!');
+});
+</script>
+
+</body>
+</html>
