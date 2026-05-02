@@ -1,39 +1,40 @@
 # Russia-China Trade Data Analyzer
 
-Open source tool for analyzing Russia-China trade data based on World Bank, China Customs, and Russian Customs official statistics.
-
-## Features
-
-- TOP 50 Chinese export categories to Russia
-- Trade flow analysis by product category
-- Logistics cost estimation
-- Market size analysis 2024-2026
+Open source CLI tool for analyzing Russia-China bilateral trade data, based on World Bank Comtrade, China Customs, and Russian Federal Customs Service official statistics.
 
 ## Quick Start
 
 ```bash
-git clone https://github.com/qinxiproject/russia-trade-data.git
+git clone https://github.com/qinxi2018-commits/russia-trade-data.git
 cd russia-trade-data
+python3 analyze.py --list
 python3 analyze.py --category electronics
 ```
 
-## Data Sources
+## Data Coverage
 
-- World Bank Comtrade Database  
-- China Customs General Administration
-- Russian Federal Customs Service (FCS)
+- **50+ product categories** from China to Russia
+- **2024 actual trade values** (World Bank + Customs data)
+- **2025-2026 growth projections**
+- Logistics cost benchmarks by category
 
-## Commercial Data Package
+## Free vs Paid
 
-This open source tool provides analysis methodology.
-**Full detailed report with 50+ categories, buyer directory, and logistics guide:**
-- English/Chinese/Russian PDF report
-- Excel data package (TOP50 + logistics + buyers)
-- Updated quarterly
+This open source tool gives you:
+- Methodology and framework
+- TOP 50 categories overview
+- Basic growth projections
 
-:earth_americas: https://velvety-gecko-b38d75.netlify.app/
-:envelope: qinxi18@mail.ru
+**Full commercial package includes:**
+- Detailed PDF report (EN/ZH/RU) — 34 pages
+- Excel data package: TOP50 + logistics + buyer directory
+- Quarterly updates
+- Buyer contact leads from Russian import channels
+- Risk analysis and market entry guidance
 
-## License
+:earth_americas: **https://velvety-gecko-b38d75.netlify.app/**
+:envelope: **qinxi18@mail.ru**
 
-MIT License
+## Topics
+
+russia china trade data-analysis world-bank customs import export international-trade
