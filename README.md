@@ -52,7 +52,7 @@ python3 fetch_trade_data.py
 
 For the full Russia Market Report 2026 (EN/ZH/RU), buyer directory, and data packages:
 
-🌐 **https://velvety-gecko-b38d75.netlify.app/**
+🌐 **http://47.104.69.146/russia-site/**
 
 ## License
 
