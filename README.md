@@ -4,7 +4,7 @@
 
 Comprehensive Russia-China trade data analysis covering 50 product categories, with historical trends, growth rates, and actionable market intelligence for exporters.
 
-[📊 View Analysis Script](analyze.py) | [📈 Live Data](data/last_update.json) | [📋 Full Report](https://velvety-gecko-b38d75.netlify.app/)
+[📊 View Analysis Script](analyze.py) | [📈 Live Data](data/last_update.json) | [📋 Full Report](http://47.104.69.146/russia-site/)
 
 ## What's Inside
 
